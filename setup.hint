@@ -1,0 +1,4 @@
+category: X11
+requires: bash mkfontscale
+sdesc: "Xorg font directory indexer"
+ldesc: "Xorg font directory indexer"
