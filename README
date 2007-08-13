@@ -3,20 +3,20 @@ mkfontdir
 Xorg font directory indexer
 
 Runtime requirements:
-  bash-3.1-6
-  mkfontscale-1.0.1-1
+  bash
+  mkfontscale-1.0.3-1
 
 Build requirements:
-  cygwin-1.5.20-1
-  autoconf2.5-2.59-2
-  automake1.9-1.9.6-1
-  binutils-20050610-1
-  cygport-0.2.2-1
-  gawk-3.1.5-2
-  make-3.80-1
-  pkg-config-0.20-1
-  sed-4.1.5-1
-  xorg-util-macros-1.0.2-1
+  cygwin-1.5.24-2
+  autoconf2.5-2.61-1
+  automake1.9-1.9.6-2
+  binutils-20060817-1
+  cygport-0.3.5-1
+  gawk-3.1.5-4
+  make-3.81-1
+  pkg-config-0.21-1
+  sed-4.1.5-2
+  xorg-util-macros-1.1.5-1
 
 Canonical website:
   http://xorg.freedesktop.org/
@@ -27,29 +27,32 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack mkfontdir-1.0.2-X-src.tar.bz2
+  unpack mkfontdir-1.0.3-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./mkfontdir-1.0.2-X.cygport all
+  cygport ./mkfontdir-1.0.3-X.cygport all
 
 This will create:
-  /usr/src/mkfontdir-1.0.2-X-src.tar.bz2
-  /usr/src/mkfontdir-1.0.2-X.tar.bz2
+  /usr/src/mkfontdir-1.0.3-X-src.tar.bz2
+  /usr/src/mkfontdir-1.0.3-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
   /usr/bin/mkfontdir
-  /usr/share/doc/Cygwin/mkfontdir-1.0.2.README
-  /usr/share/doc/mkfontdir-1.0.2/COPYING
-  /usr/share/doc/mkfontdir-1.0.2/ChangeLog
+  /usr/share/doc/Cygwin/mkfontdir-1.0.3.README
+  /usr/share/doc/mkfontdir-1.0.3/COPYING
+  /usr/share/doc/mkfontdir-1.0.3/ChangeLog
   /usr/share/man/man1/mkfontdir.1.gz
 
 ------------------
 
 Port Notes:
+
+----- version 1.0.3-1 -----
+Version bump for X11R7.3.
 
 ----- version 1.0.2-1 -----
 X11R7.1 version bump.
