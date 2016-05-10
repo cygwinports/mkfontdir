@@ -12,4 +12,6 @@ lower case and used as font names, and, along with the name of the font file,
 are written out to the file 'fonts.dir' in the directory.  The X server and
 font server use 'fonts.dir' to find font files."
 
+ARCH=noarch
+
 REQUIRES="mkfontscale"
